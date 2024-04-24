@@ -31,7 +31,7 @@ http://vectors.nlpl.eu/explore/embeddings/en/#
 
 ## Kode demoer
 
-[semantic search](embeddings/README.md)
+[semantic search demo](embeddings/README.md)
 
 ## Generelle anvendelser:
 

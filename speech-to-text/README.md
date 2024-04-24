@@ -2,7 +2,7 @@
 
 ## Systemkrav
 
-Se [prepare environment](../prepare-environment.md)
+Se [Opsæt Python](../prepare-environment.md)
 
 ## asr.py
 
@@ -31,4 +31,4 @@ Alt tider er vejledende.
 ## Leg med modellen
 
 Sammenlign eksempel filen med teksten. Bemærk at det der er mindre fejl i transkriberingen.
-Prøv evt. med andre MP3 filer.
+Prøv med andre MP3 filer der indeholder stemmer.

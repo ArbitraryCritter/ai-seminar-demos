@@ -34,11 +34,10 @@ https://docs.anaconda.com/free/miniconda/miniconda-install/
 Run a shell environment and install dependencies:
 ```
 conda create --name nlp-seminar --yes
-conda install transformers
-conda install -c conda-forge accelerate --yes
+pip install --upgrade transformers accelerate faster_whisper
 ```
 
-Whenever you open a new shell, you should run, to activate the shell:
+Whenever you open a new shell, you should run this, to activate the shell:
 ```
-conda activate 
+conda activate nlp-seminar
 ```

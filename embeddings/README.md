@@ -2,18 +2,20 @@
 
 ## Systemkrav
 
-Se [prepare environment](../prepare-environment.md)
+Se [Opsæt Python](../prepare-environment.md)
 
 ## semantic_search.py
 
-Eksemplet anvender "documents.txt" filen, der også findes i repositoriet.
+Eksemplet implementerer en fuld demonstration af "semantic search" vha. embeddings.
 
-Eksemplet implementerer en fuld demonstration af semantic search vha. embeddings.
+Eksemplet anvender "documents.txt" filen, der også findes i repositoriet.
 
 I eksemplet loades modellen (downloades hvis nødvendigt), hvorefter der genereres embeddings for alle linjer i documents.txt.
 Derefter laves der en søgning på den første parameter skriptet har fået.
 
+```
 python semantic_search.py "Hvad er PtX?"
+```
 
 ## Køretid
 

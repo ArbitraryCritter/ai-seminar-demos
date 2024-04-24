@@ -18,14 +18,13 @@ https://picovoice.ai/docs/benchmark/stt/
 https://huggingface.co/spaces/esb/leaderboard
 https://paperswithcode.com/sota/speech-recognition-on-librispeech-test-clean
 
-
 ## Online demoer
 
 
 
 ## Kode demoer
 
-[automatic speech recognition](speech-to-text/README.md)
+[automatic speech recognition demo](speech-to-text/README.md)
 
 ## Generelle anvendelser:
 

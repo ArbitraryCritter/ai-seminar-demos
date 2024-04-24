@@ -12,8 +12,6 @@ Der er ofte nødvendige at fine-tune LLM modeller til et specifikt formål, for 
 Starling LM 7b beta er en afart af Mistral 7B v.0.1, med forbedret performance på Dansk.
 - https://huggingface.co/Nexusflow/Starling-LM-7B-beta
 
-
-
 Mistral 7B v.0.2 - En af de få rent Europæisk udviklede modeller og fundament for mange åbne modeller.
 - https://huggingface.co/mistral-community/Mistral-7B-v0.2
 
@@ -40,6 +38,7 @@ https://playground.ai.cloudflare.com/?model=@hf/mistralai/mistral-7b-instruct-v0
 
 ## Kode demoer
 
+[Summarize demo](summarize/README.md)
 
 ## Generelle anvendelser:
 
