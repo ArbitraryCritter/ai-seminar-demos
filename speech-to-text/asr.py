@@ -1,21 +1,19 @@
-import whisper
+from faster_whisper import WhisperModel
+import os
+import argparse
 
-model = whisper.load_model("medium")
+parser = argparse.ArgumentParser(description='Run Transcription on audio file using latest whisper model.')
+parser.add_argument('file_path', help='Filename to process.')
+args = vars(parser.parse_args())
 
-# load audio and pad/trim it to fit 30 seconds
-audio = whisper.load_audio("/Users/rws/Desktop/mp3s/00_00.mp3")
-audio = whisper.pad_or_trim(audio)
+file_path = args['file_path']
 
-# make log-Mel spectrogram and move to the same device as the model
-mel = whisper.log_mel_spectrogram(audio).to(model.device)
+if not os.path.isfile(file_path):
+  print(f"Unable to locate a file at {file_path}")
+  exit(1)
 
-# detect the spoken language
-_, probs = model.detect_language(mel)
-print(f"Detected language: {max(probs, key=probs.get)}")
+model = WhisperModel("large-v3")
 
-# decode the audio
-options = whisper.DecodingOptions()
-result = whisper.decode(model, mel, options)
-
-# print the recognized text
-print(result.text)
+segments, info = model.transcribe(file_path)
+for segment in segments:
+    print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))

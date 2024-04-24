@@ -4,12 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = "*"
-transformers = "*"
-datasets = "*"
-accelerate = "*"
-soundfile = "*"
-librosa = "*"
+faster-whisper = "*"
 
 [dev-packages]
 

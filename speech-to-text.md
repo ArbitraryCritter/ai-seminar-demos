@@ -22,17 +22,22 @@ https://paperswithcode.com/sota/speech-recognition-on-librispeech-test-clean
 
 ## Kode demoer
 
-TODO
+[automatic speech recognition](speech-to-text/README.md)
 
 ## Generelle anvendelser:
 
+### Speech to text
 
-### Basic Speech to text
-
-Helt grundlæggende speech to text. Træk en simpel tekst linje ud af en stykke lyd.
+Helt grundlæggende speech to text, forstå et lydspor og konverter det til tekst.
 
 ### Diarisering
 
+Fuld transkribering med separation af talere og understøttelse af overlappende tale.
 
-## Ideer til anvendelse
+## Ideer til anvendelse i Gyldendal Uddanelse
 
+### Søgning i lyd/lydspor i video.
+
+Kør ASR på en lydfil og gem den som metadata til filen eller i et søge indeks, således at man kan søge på indholdet.
+
+### 

@@ -29,7 +29,7 @@ http://vectors.nlpl.eu/explore/embeddings/en/#
 
 ## Kode demoer
 
-TODO
+[semantic search](embeddings/README.md)
 
 ## Generelle anvendelser:
 
@@ -45,7 +45,7 @@ Forskellige teknikker til at trække fællestræk ud, enten ved at gruppere sæt
 Der findes også såkaldte "instruct" embedding modeller der kan generere embeddings der fokuserer på visse aspekter, ved at man giver dem en sætning der fortæller hvilket aspekt man ønsker embeddingen skal dække.
 
 
-## Ideer til anvendelse
+## Ideer til anvendelse i Gyldendal Uddannelse
 
 ### Semantisk søgning
 
