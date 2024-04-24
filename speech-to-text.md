@@ -5,16 +5,19 @@ Nogen modeller trækker en tekst strøm ud af en talestrøm, andre kan kende for
 
 ## Spændende modeller i det her felt.
 
-https://huggingface.co/pyannote/speaker-diarization-3.1
 ### OpenAI whisper - Åben ASR model
 https://huggingface.co/openai/whisper-large-v3
 
+### Center for Humanities Aarhus/Alvenir - Dansk specifik model
+https://huggingface.co/chcaa/xls-r-300m-danish-nst-cv9
+
 ## Model Benchmarks
 
-# ASR benchmarks
+https://huggingface.co/spaces/hf-audio/open_asr_leaderboard
 https://picovoice.ai/docs/benchmark/stt/ 
 https://huggingface.co/spaces/esb/leaderboard
 https://paperswithcode.com/sota/speech-recognition-on-librispeech-test-clean
+
 
 ## Online demoer
 

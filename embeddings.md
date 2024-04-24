@@ -7,18 +7,20 @@ Bemærk: En embedding vil som udgangspunkt være specifik til den model man brug
 
 ## Spændende modeller i det her felt.
 
-### Multilingual-e5-large-instruct er en state-of-the-arti multilanguage instruct embedding model, dvs den kan producere formåls specifikke embeddings.
-https://huggingface.co/intfloat/multilingual-e5-large-instruct
+Multilingual-e5-large-instruct er en state-of-the-arti multilanguage instruct embedding model, dvs den kan producere formåls specifikke embeddings.
+- https://huggingface.co/intfloat/multilingual-e5-large-instruct
 
-### Danish Foundation Models - Sentence encoder medium - En dansk fokuseret embedding model
-https://huggingface.co/KennethEnevoldsen/dfm-sentence-encoder-medium-v1
+Danish Foundation Models - Sentence encoder medium - En dansk fokuseret embedding model
+- https://huggingface.co/KennethEnevoldsen/dfm-sentence-encoder-medium-v1
 
-### multilingual-e5-small - Lille men godt performende multilanguage model, der anvendes af Team TYPO3 til semantisk søgning
-https://huggingface.co/intfloat/multilingual-e5-small
+multilingual-e5-small - Lille men godt performende multilanguage model, der anvendes af Team TYPO3 til semantisk søgning
+- https://huggingface.co/intfloat/multilingual-e5-small
 
 ## Model Benchmarks
 
-### Scandinavian Embedding Benchmark (Enevoldsen)
+https://huggingface.co/spaces/hf-audio/open_asr_leaderboard
+
+### Scandinavian Embedding Benchmark (Kenneth Enevoldsen)
 https://kennethenevoldsen.github.io/scandinavian-embedding-benchmark/
 
 ## Online demoer
