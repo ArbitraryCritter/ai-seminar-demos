@@ -1,7 +1,7 @@
 # Speech to text
 
-Speech to text modeller konverterer, som navnet siger, tale til tekst. De findes i mange varianter, nogen fokuseret på enkelte sprog.
-Nogen modeller trækker en tekst strøm ud af en talestrøm, andre kan kende forskel på stemmer og laver en fuld diarisering (transkribering af de enkelte talere)..
+Speech to text modeller konverterer, som navnet siger, tale til tekst. De findes i mange varianter, nogen fokuseret på enkelte sprog og andre med bred sprog håndtering.
+Nogen modeller trækker en tekst strøm ud af en talestrøm, andre kan kende forskel på stemmer og laver en fuld diarisering (transkribering af de enkelte talere).
 
 ## Spændende modeller i det her felt.
 
@@ -20,7 +20,11 @@ https://paperswithcode.com/sota/speech-recognition-on-librispeech-test-clean
 
 ## Online demoer
 
-
+# The online demo is slightly tricky to use.
+# Press the "Record from browser" button and record some speech with the microphone.
+# When you are done, press the "Click to stop recording" button (the same button you use to start recording).
+# Finally press the "Compute" button to transcribe the audio.
+https://huggingface.co/openai/whisper-large-v3
 
 ## Kode demoer
 

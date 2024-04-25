@@ -10,8 +10,8 @@ Eksemplet implementerer en fuld demonstration af "semantic search" vha. embeddin
 
 Eksemplet anvender "documents.txt" filen, der også findes i repositoriet.
 
-I eksemplet loades modellen (downloades hvis nødvendigt), hvorefter der genereres embeddings for alle linjer i documents.txt.
-Derefter laves der en søgning på den første parameter skriptet har fået.
+I eksemplet loades modellen (downloades hvis nødvendigt) og der genereres embeddings for alle linjer i documents.txt.
+Til sidst laves der en søgning på den første parameter skriptet har fået og den bedst matchende linje returneres.
 
 ```
 python semantic_search.py "Hvad er PtX?"
@@ -19,7 +19,7 @@ python semantic_search.py "Hvad er PtX?"
 
 ## Køretid
 
-Skriptet kan tage lidt tid om at ekserkvere. Bemærk at det meste af tyden typisk bruges på at forberede modellen.
+Skriptet kan tage lidt tid om at ekserkvere. Bemærk at det meste af tiden typisk bruges på at forberede modellen.
 Selve genereringen af embeddings er relativt hurtig og sammenligningen af embeddings er hurtig.
 
 ## Leg med modellen
